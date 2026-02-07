@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-cream: #fbf7e9;
+  --color-pulse-navy: #1b5070;
+  --color-pulse-blue: #9fd7e1;
+  --color-pulse-yellow: #f2bb45;
+  --color-pulse-green: #71994d;
+  --color-pulse-red: #db5760;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
