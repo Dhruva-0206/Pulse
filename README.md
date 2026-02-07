@@ -114,6 +114,9 @@ The AI is intentionally kept **lightweight, safe, and human-like** — no medica
 
 ---
 
+## 📁 Project Structure (High Level)
+
+
 Pulse/
 ├── client/
 │   ├── public/
@@ -141,6 +144,7 @@ Pulse/
 ├── .gitignore
 ├── README.md
 └── package.json
+
 
 ---
 
