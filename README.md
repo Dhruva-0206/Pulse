@@ -114,22 +114,33 @@ The AI is intentionally kept **lightweight, safe, and human-like** — no medica
 
 ---
 
-## 📂 Project Structure (High Level)
-
-client/
-└─ src/
-├─ pages/
-├─ components/
-├─ api/
-└─ assets/
-
-server/
-├─ controllers/
-├─ routes/
-├─ middleware/
-├─ services/
-├─ utils/
-└─ db.js
+Pulse/
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── api/            # Axios API layer
+│   │   ├── assets/         # Images, icons, UI assets
+│   │   ├── components/     # Reusable UI components
+│   │   ├── pages/          # Application pages (routes)
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server/
+│   ├── controllers/        # Request handlers
+│   ├── routes/             # API routes
+│   ├── middleware/         # Auth & request middleware
+│   ├── services/           # AI & external services
+│   ├── utils/              # Helper utilities
+│   ├── db.js               # PostgreSQL connection
+│   ├── index.js            # Express app entry
+│   └── package.json
+│
+├── .gitignore
+├── README.md
+└── package.json
 
 ---
 
