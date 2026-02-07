@@ -119,7 +119,7 @@ Pulse/
 │   ├── public/
 │   ├── src/
 │   │   ├── api/            # Axios API layer
-│   │   ├── assets/         # Images, icons, UI assets
+│   │   ├── assets/         # Images & UI assets
 │   │   ├── components/     # Reusable UI components
 │   │   ├── pages/          # Application pages (routes)
 │   │   ├── App.jsx
@@ -135,7 +135,7 @@ Pulse/
 │   ├── services/           # AI & external services
 │   ├── utils/              # Helper utilities
 │   ├── db.js               # PostgreSQL connection
-│   ├── index.js            # Express app entry
+│   ├── index.js            # Express entry point
 │   └── package.json
 │
 ├── .gitignore
